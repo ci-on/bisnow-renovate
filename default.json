@@ -3,16 +3,16 @@
     "description": "Default config for bisnow repositories",
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-    ":dependencyDashboard",
-    ":semanticPrefixFixDepsChoreOthers",
-    ":ignoreModulesAndTests",
-    ":autodetectPinVersions",
-    ":prHourlyLimit2",
-    ":prConcurrentLimit10",
-    "group:recommended",
-    "workarounds:all",
-    "group:allNonMajor",
-    ":semanticCommitTypeAll(chore)"
+      ":dependencyDashboard",
+      ":semanticPrefixFixDepsChoreOthers",
+      ":ignoreModulesAndTests",
+      ":autodetectPinVersions",
+      ":prHourlyLimit2",
+      ":prConcurrentLimit10",
+      "group:recommended",
+      "workarounds:all",
+      "group:allNonMajor",
+      ":semanticCommitTypeAll(chore)"
     ],
     
     "meteor": {
