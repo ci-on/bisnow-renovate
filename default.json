@@ -7,7 +7,7 @@
       ":semanticPrefixFixDepsChoreOthers",
       ":ignoreModulesAndTests",
       ":autodetectPinVersions",
-      ":prHourlyLimit2",
+      ":prHourlyLimit10",
       ":prConcurrentLimit10",
       "group:recommended",
       "workarounds:all",
