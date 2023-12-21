@@ -3,15 +3,15 @@
     "description": "Default config for bisnow repositories",
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
+      "group:recommended",
+      "group:allNonMajor",
       ":dependencyDashboard",
       ":semanticPrefixFixDepsChoreOthers",
       ":ignoreModulesAndTests",
       ":autodetectPinVersions",
       ":prHourlyLimitNone",
       ":prConcurrentLimit10",
-      "group:recommended",
       "workarounds:all",
-      "group:allNonMajor",
       ":semanticCommitTypeAll(chore)"
     ],
     "packageRules": [
