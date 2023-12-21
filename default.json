@@ -3,8 +3,7 @@
     "description": "Default config for bisnow repositories",
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-      "group:recommended",
-      "group:all",
+      "group:allNonMajor",
       ":dependencyDashboard",
       ":semanticPrefixFixDepsChoreOthers",
       ":ignoreModulesAndTests",
