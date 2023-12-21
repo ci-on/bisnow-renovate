@@ -15,17 +15,17 @@
     ],
     "packageRules": [
       {
-        "matchPackagePatterns": [
-          "*"
-        ],
-        "matchUpdateTypes": [
-          "minor",
-          "patch"
-        ],
-        "groupName": "all non-major dependencies",
-        "groupSlug": "all-minor-patch"
+        "packagePatterns": ["^composer/"],
+        "updateTypes": ["minor"],
+        "groupName": "all minor Composer dependencies",
+        "groupSlug": "all-minor-composer"
+      },
+      {
+        "matchUpdateTypes": ["minor", "patch"],
+        "groupName": "all minor and patch npm dependencies",
+        "groupSlug": "all-minor-patch-npm"
       }
-    ],  
+    ],
     "meteor": {
       "enabled": false
     },
