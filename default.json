@@ -14,7 +14,19 @@
       "group:allNonMajor",
       ":semanticCommitTypeAll(chore)"
     ],
-    
+    "packageRules": [
+      {
+        "matchPackagePatterns": [
+          "*"
+        ],
+        "matchUpdateTypes": [
+          "minor",
+          "patch"
+        ],
+        "groupName": "all non-major dependencies",
+        "groupSlug": "all-minor-patch"
+      }
+    ],  
     "meteor": {
       "enabled": false
     },
